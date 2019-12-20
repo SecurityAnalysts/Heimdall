@@ -10,6 +10,11 @@ Heimdall é um projeto criado inteiramente em Python para facilitar o processo d
 
 ![Screenshot](https://raw.githubusercontent.com/f1v5/Heimdall/master/doc/images/heimdall_screenshot.png)
 
+## Testado no
+
+* macOS Catalina
+* Kali Linux
+
 ## Instalação
 
 Você pode baixar o tarball mais recente clicando [aqui](https://github.com/f1v5/Heimdall/tarball/master) ou zipball mais recente, clicando [aqui](https://github.com/f1v5/Heimdall/zipball/master).
@@ -25,8 +30,10 @@ $ cd Heimdall && pip3 install -r requirements.txt
 Usage: ./heimdall.py [-h, --help] [-u, --url] [--wordlist (1, 2, 3)]
                    [--user-agent <custom>]
 
-Description: Fast, simple, powerful and didactic this admin finder 
-             written entirely in Python3.
+Description: Heimdall is a project created entirely in Python to facilitate the 
+             intrusion testing process on a website. Simple, powerful, fast and 
+             easy to use code can use. It uses the brute force method to find 
+             the administrator directory of a target site.
 
 Optional Arguments:
 
@@ -44,7 +51,7 @@ Optional Arguments:
 ./heimdall.py --url www.target.com --wordlist extra/wordlists/custom.txt
 ```
 
-## Translations
+## Traduções
 
 * [English](https://github.com/f1v5/Heimdall/blob/master/README.md)
 * [Portuguese](https://github.com/f1v5/Heimdall/blob/master/doc/translations/README-pt-BR.md)
