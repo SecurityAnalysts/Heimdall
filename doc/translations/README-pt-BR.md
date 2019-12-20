@@ -46,5 +46,5 @@ Optional Arguments:
 
 ## Translations
 
-* [English](https://github.com/f1v5/Heimdall/README.md)
-* [Portuguese](https://github.com/f1v5/Heimdall/doc/translations/README-pt-BR)
+* [English](https://github.com/f1v5/Heimdall/blob/master/README.md)
+* [Portuguese](https://github.com/f1v5/Heimdall/blob/master/doc/translations/README-pt-BR.md)
