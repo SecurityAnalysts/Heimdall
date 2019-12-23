@@ -2,38 +2,44 @@
 
 import random
 
-Version = "1.0"
+from src import color as C
+
+Version = "BETA 2.0"
 Banner = random.randrange(3)
 
 if Banner == 0:
-    Banner = """
+    Banner = """{}{}
      _   _      _               _       _ _ 
     | | | | ___(_)_ __ ___   __| | __ _| | |
     | |_| |/ _ \ | '_ ` _ \ / _` |/ _` | | |
     |  _  |  __/ | | | | | | (_| | (_| | | |
-    |_| |_|\___|_|_| |_| |_|\__,_|\__,_|_|_| Version: {}
-""".format(Version)
+    |_| |_|\___|_|_| |_| |_|\__,_|\__,_|_|_|{} Version: {}
+""".format(C.BOLD, C.YELLOW, 
+           C.RESET, Version)
 
 elif Banner == 1:
-    Banner = """
+    Banner = """{}{}
                 _               _       _ _ 
       /\  /\___(_)_ __ ___   __| | __ _| | |
      / /_/ / _ \ | '_ ` _ \ / _` |/ _` | | |
     / __  /  __/ | | | | | | (_| | (_| | | |
-    \/ /_/ \___|_|_| |_| |_|\__,_|\__,_|_|_| Version: {}
-""".format(Version)
+    \/ /_/ \___|_|_| |_| |_|\__,_|\__,_|_|_|{} Version: {}
+""".format(C.BOLD, C.YELLOW, 
+           C.RESET, Version)
 
 elif Banner == 2:
-    Banner = """
+    Banner = """{}{}
      _   _      _               _       _ _ 
     | | | |    (_)             | |     | | |
     | |_| | ___ _ _ __ ___   __| | __ _| | |
     |  _  |/ _ \ | '_ ` _ \ / _` |/ _` | | |
     | | | |  __/ | | | | | | (_| | (_| | | |
-    \_| |_/\___|_|_| |_| |_|\__,_|\__,_|_|_| Version: {}
-""".format(Version)
+    \_| |_/\___|_|_| |_| |_|\__,_|\__,_|_|_|{} Version: {}
+""".format(C.BOLD, C.YELLOW, 
+           C.RESET, Version)
 
-Banner = Banner + """
+Banner = Banner + """{}
           Author: Ygor Simões (f1v5)
-        Github: https://github.com/f1v5
-"""
+        Github: https://github.com/f1v5{}
+""".format(C.CYAN, 
+           C.RESET)
