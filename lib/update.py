@@ -11,4 +11,4 @@ def Upgrade():
         print("\n{}[+]{} Heimdall was successfully updated.".format(C.GREEN, C.RESET))
     except Exception:
         print("\n{}[!]{} Couldn't retrieve update.".format(C.RED, C.RESET))
-        print("{}[!]{} Please download the latest version from https://github.com/f1v5/Heimdall".format(C.RED, C.RESET))
+        print("{}[!]{} Please download the latest version from https://github.com/CR3DN3/Heimdall".format(C.RED, C.RESET))
