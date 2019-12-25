@@ -40,8 +40,6 @@ parser.add_argument("--update",
                     default=False,
                     help="Upgrade Heimdall to its latest available version.")
 
-
-
 args = parser.parse_args()
 
 if args.update == True:
