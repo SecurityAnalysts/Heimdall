@@ -4,7 +4,7 @@ import random
 
 from src import color as C
 
-Version = "BETA 2.0"
+Version = "2.0.1"
 Banner = random.randrange(3)
 
 if Banner == 0:
