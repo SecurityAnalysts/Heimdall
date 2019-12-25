@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
 Message = """
-Usage: ./heimdall.py [-h, --help] [-u, --url] [--wordlist (1, 2, 3)]
+Usage: ./heimdall.py [-h, --help] [-u, --url] [-w, --wordlist (1, 2, 3)]
                      [--user-agent <custom>] [--update]
 
-Description: Heimdall is a project created entirely in Python to facilitate the 
-             intrusion testing process on a website. Simple, powerful, fast and 
-             easy to use code can use. It uses the brute force method to find 
-             the administrator directory of a target site.
+Description: Heimdall is an open source tool designed to automate fetching 
+             from a target site's admin panel using brute force in the wordlist.
 
 Optional Arguments:
 
