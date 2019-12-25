@@ -1,14 +1,13 @@
 # ⚡️ Heimdall ⚡️
-![Screenshot](https://raw.githubusercontent.com/f1v5/Heimdall/master/doc/images/heimdall.gif)
-
+![Screenshot](https://raw.githubusercontent.com/CR3DN3/Heimdall/master/doc/images/heimdall.gif)
 
 ## What is this?
 
-Heimdall is a project created entirely in Python to facilitate the intrusion testing process on a website. Simple, powerful, fast and easy to use code can use. It uses the brute force method to find the administrator directory of a target site.
+Heimdall is an open source tool designed to automate fetching from a target site's admin panel using brute force in the wordlist. Developed entirely in Python, it has simple didactic code for study, and is an ideal tool for hacking arsenal.
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/f1v5/Heimdall/master/doc/images/heimdall_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/CR3DN3/Heimdall/master/doc/images/heimdall_screenshot.png)
 
 ## Tested on
 
@@ -17,23 +16,21 @@ Heimdall is a project created entirely in Python to facilitate the intrusion tes
 
 ## Installation
 
-You can download the latest tarball by clicking [here](https://github.com/f1v5/Heimdall/tarball/master) or latest zipball by clicking [here](https://github.com/f1v5/Heimdall/zipball/master).
+You can download the latest tarball by clicking [here](https://github.com/CR3DN3/Heimdall/tarball/master) or latest zipball by clicking [here](https://github.com/CR3DN3/Heimdall/zipball/master).
 
 ```
-$ git clone --depth 1 https://github.com/f1v5/Heimdall.git
+$ git clone --depth 1 https://github.com/CR3DN3/Heimdall.git
 $ cd Heimdall && pip3 install -r requirements.txt
 ```
 
 ## Usage
 
 ```
-Usage: ./heimdall.py [-h, --help] [-u, --url] [--wordlist (1, 2, 3)]
+Usage: ./heimdall.py [-h, --help] [-u, --url] [-w, --wordlist (1, 2, 3)]
                      [--user-agent <custom>] [--update]
 
-Description: Heimdall is a project created entirely in Python to facilitate the 
-             intrusion testing process on a website. Simple, powerful, fast and 
-             easy to use code can use. It uses the brute force method to find 
-             the administrator directory of a target site.
+Description: Heimdall is an open source tool designed to automate fetching 
+             from a target site's admin panel using brute force in the wordlist.
 
 Optional Arguments:
 
@@ -55,5 +52,5 @@ Optional Arguments:
 
 ## Translations
 
-* [English](https://github.com/f1v5/Heimdall/blob/master/README.md)
-* [Portuguese](https://github.com/f1v5/Heimdall/blob/master/doc/translations/README-pt-BR.md)
+* [English](https://github.com/CR3DN3/Heimdall/blob/master/README.md)
+* [Portuguese](https://github.com/CR3DN3/Heimdall/blob/master/doc/translations/README-pt-BR.md)
