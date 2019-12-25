@@ -39,7 +39,8 @@ elif Banner == 2:
            C.RESET, Version)
 
 Banner = Banner + """{}
-          Author: Ygor Simões (f1v5)
-        Github: https://github.com/f1v5{}
+        Author: Ygor Simões (Security Researcher)
+          Twitter: https://twitter.com/CR3DN3 
+          GitHub: https://github.com/CR3DN3{}
 """.format(C.CYAN, 
            C.RESET)
