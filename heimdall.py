@@ -10,8 +10,7 @@ from src import help as Help
 from lib import exploit as Exploit
 from lib import update as Update
 
-parser = argparse.ArgumentParser(description="Simple, powerful, fast and easy to use code can use",
-                                 add_help=False)
+parser = argparse.ArgumentParser(add_help=False)
 
 parser.add_argument("-h", "--help",
                     action="store_true",
