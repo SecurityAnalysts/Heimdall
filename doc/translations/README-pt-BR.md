@@ -12,7 +12,7 @@ O Heimdall é uma ferramente de código aberto projetada para automatizar a busc
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/CR3DN3/Heimdall/master/doc/images/heimdall_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/CR3DN3/Heimdall/master/doc/images/screenshot.png)
 
 ## Testado no
 

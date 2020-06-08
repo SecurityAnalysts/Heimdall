@@ -12,7 +12,7 @@ Heimdall is an open source tool designed to automate fetching from a target site
 
 ## Screenshot
 
-![Screenshot](https://raw.githubusercontent.com/CR3DN3/Heimdall/master/doc/images/heimdall_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/CR3DN3/Heimdall/master/doc/images/screenshot.png)
 
 ## Tested on
 
