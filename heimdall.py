@@ -28,6 +28,12 @@ parser.add_argument("-w", "--wordlist",
                     default="1",
                     help="Set wordlist. Default: 1 (Small) and Max: 3 (Big)")
 
+parser.add_argument("-p", "--proxy",
+                    action="store",
+                    type=str,
+                    default=False,
+                    help="Use a proxy to connect to the target URL")
+
 parser.add_argument("--user-agent",
                     action="store",
                     type=str,
