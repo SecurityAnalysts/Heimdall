@@ -4,6 +4,7 @@ import os
 
 from src import color as C
 
+
 def Upgrade():
     print("{}[+]{} Updating Heimdall.\n".format(C.GREEN, C.RESET))
     try:

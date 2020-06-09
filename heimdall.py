@@ -49,7 +49,8 @@ args = parser.parse_args()
 
 if args.update == True:
     print(B.Banner)
-    print ("{}[+]{} Started!  Date: {} Time: {}".format(C.GREEN, C.RESET, datetime.now().strftime("%m/%d/%Y"), datetime.now().strftime("%H:%M")))
+    print("{}[+]{} Started!  Date: {} Time: {}".format(C.GREEN, C.RESET,
+                                                       datetime.now().strftime("%m/%d/%Y"), datetime.now().strftime("%H:%M")))
     Update.Upgrade()
     exit()
 elif args.url == False:
@@ -58,5 +59,6 @@ elif args.url == False:
     exit()
 else:
     print(B.Banner)
-    print ("{}[+]{} Started!  Date: {} Time: {}".format(C.GREEN, C.RESET, datetime.now().strftime("%m/%d/%Y"), datetime.now().strftime("%H:%M")))
+    print("{}[+]{} Started!  Date: {} Time: {}".format(C.GREEN, C.RESET,
+                                                       datetime.now().strftime("%m/%d/%Y"), datetime.now().strftime("%H:%M")))
     Exploit.Finder(args)

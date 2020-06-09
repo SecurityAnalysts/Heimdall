@@ -2,6 +2,7 @@
 
 import random
 
+
 def Random():
 
     UAChrome = open('extra/user-agents/Chrome.txt', 'r')
@@ -13,11 +14,11 @@ def Random():
     UAEdge.close()
 
     UAFirefox = open('extra/user-agents/Firefox.txt', 'r')
-    Firefox =  UAFirefox.readlines()
+    Firefox = UAFirefox.readlines()
     UAFirefox.close()
 
     UAOpera = open('extra/user-agents/Firefox.txt', 'r')
-    Opera = UAOpera.readlines() 
+    Opera = UAOpera.readlines()
     UAOpera.close()
 
     UASafari = open('extra/user-agents/Firefox.txt', 'r')

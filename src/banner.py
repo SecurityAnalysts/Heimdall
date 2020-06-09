@@ -12,9 +12,9 @@ if Banner == 0:
      _   _      _               _       _ _ 
     | | | | ___(_)_ __ ___   __| | __ _| | |
     | |_| |/ _ \ | '_ ` _ \ / _` |/ _` | | |
-    |  _  |  __/ | | | | | | (_| | (_| | | |
+    |  _  |  __/ | | | | | | (_| | (_| | u |
     |_| |_|\___|_|_| |_| |_|\__,_|\__,_|_|_|{} Version: {}
-""".format(C.BOLD, C.YELLOW, 
+""".format(C.BOLD, C.YELLOW,
            C.RESET, Version)
 
 elif Banner == 1:
@@ -24,7 +24,7 @@ elif Banner == 1:
      / /_/ / _ \ | '_ ` _ \ / _` |/ _` | | |
     / __  /  __/ | | | | | | (_| | (_| | | |
     \/ /_/ \___|_|_| |_| |_|\__,_|\__,_|_|_|{} Version: {}
-""".format(C.BOLD, C.YELLOW, 
+""".format(C.BOLD, C.YELLOW,
            C.RESET, Version)
 
 elif Banner == 2:
@@ -35,12 +35,12 @@ elif Banner == 2:
     |  _  |/ _ \ | '_ ` _ \ / _` |/ _` | | |
     | | | |  __/ | | | | | | (_| | (_| | | |
     \_| |_/\___|_|_| |_| |_|\__,_|\__,_|_|_|{} Version: {}
-""".format(C.BOLD, C.YELLOW, 
+""".format(C.BOLD, C.YELLOW,
            C.RESET, Version)
 
 Banner = Banner + """{}
         Author: Ygor Simões (Security Researcher)
           Twitter: https://twitter.com/CR3DN3 
           GitHub: https://github.com/CR3DN3{}
-""".format(C.CYAN, 
+""".format(C.CYAN,
            C.RESET)
